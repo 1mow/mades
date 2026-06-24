@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Service Luxury | Эксклюзивные гей-секс услуги</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, sans-serif; }
+        body { background-color: #06040a; color: #ffffff; line-height: 1.6; overflow-x: hidden; }
+        header { background: radial-gradient(circle at top, #2e1065 0%, #06040a 70%); padding: 100px 20px 60px 20px; text-align: center; position: relative; }
+        header::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 80%; height: 2px; background: linear-gradient(90deg, transparent, #c084fc, transparent); }
+        h1 { font-size: 3.5rem; color: #ffffff; text-shadow: 0 0 20px rgba(168, 85, 247, 0.6); margin-bottom: 15px; text-transform: uppercase; letter-spacing: 3px; font-weight: 800; }
+        .subtitle { font-size: 1.3rem; color: #e9d5ff; font-weight: 400; letter-spacing: 1px; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 60px 20px; }
+        .grid-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+        @media (max-width: 768px) { .grid-layout { grid-template-columns: 1fr; } }
+        .premium-card { background: linear-gradient(135deg, rgba(30, 27, 46, 0.7), rgba(15, 12, 25, 0.8)); backdrop-filter: blur(10px); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 24px; padding: 40px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), inset 0 1px 2px rgba(255, 255, 255, 0.1); transform: perspective(1000px) rotateX(2deg); transition: transform 0.4s ease, box-shadow 0.4s ease; text-align: center; }
+        .premium-card:hover { transform: perspective(1000px) rotateX(0deg) translateY(-5px); box-shadow: 0 30px 60px rgba(168, 85, 247, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.2); }
+        .model-name { font-size: 2.2rem; background: linear-gradient(90deg, #ffffff, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 5px; font-weight: 700; }
+        .model-status { color: #a855f7; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 2px; font-weight: 600; margin-bottom: 25px; }
+        .info-list { text-align: left; margin-bottom: 30px; background: rgba(0, 0, 0, 0.2); padding: 20px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.05); }
+        .info-item { margin-bottom: 12px; font-size: 1.1rem; color: #e9d5ff; display: flex; justify-content: space-between; }
+        .info-item strong { color: #ffffff; }
+        .price-tag { font-size: 2rem; font-weight: 800; color: #ffffff; background: linear-gradient(135deg, #a855f7, #6b21a8); padding: 10px 30px; border-radius: 50px; display: inline-block; box-shadow: 0 10px 20px rgba(168, 85, 247, 0.3); margin-top: 10px; }
+        .side-panel { display: flex; flex-direction: column; gap: 30px; }
+        .glass-box { background: rgba(20, 16, 33, 0.6); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 20px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        .glass-box h2 { font-size: 1.5rem; color: #c084fc; margin-bottom: 15px; font-weight: 600; }
+        .glass-box p { color: #d8b4fe; font-size: 1.05rem; }
+        .address-box { background: linear-gradient(135deg, rgba(59, 7, 100, 0.3), rgba(15, 12, 25, 0.6)); border: 1px solid rgba(168, 85, 247, 0.4); }
+        .address-text { background: rgba(0, 0, 0, 0.4); padding: 15px; border-radius: 12px; border: 1px solid rgba(168, 85, 247, 0.2); margin-top: 15px; color: #ffffff; font-size: 1.1rem; text-align: center; letter-spacing: 0.5px; }
+        .cta-container { text-align: center; margin-top: 60px; background: linear-gradient(180deg, transparent, rgba(24, 17, 35, 0.4)); padding: 40px; border-radius: 30px; }
+        .cta-container h2 { font-size: 2rem; margin-bottom: 15px; }
+        .cta-container p { color: #e9d5ff; margin-bottom: 30px; font-size: 1.1rem; }
+        .btn-premium { display: inline-block; background: #ffffff; color: #06040a; padding: 18px 50px; font-weight: 700; text-decoration: none; border-radius: 50px; font-size: 1.2rem; letter-spacing: 1px; transition: 0.3s all ease; box-shadow: 0 15px 30px rgba(255, 255, 255, 0.15); }
+        .btn-premium:hover { background: #a855f7; color: #ffffff; transform: translateY(-3px); box-shadow: 0 20px 40px rgba(168, 85, 247, 0.4); }
+        footer { text-align: center; padding: 40px 20px; color: #6b21a8; font-size: 0.9rem; border-top: 1px solid rgba(168, 85, 247, 0.1); margin-top: 60px; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>G-Service Luxury</h1>
+        <p class="subtitle">Элитное агентство по продаже коммерческих секс-услуг</p>
+    </header>
+
+    <div class="container">
+        <div class="grid-layout">
+            
+            <div class="premium-card">
+                <div class="model-name">Гончаров Кирилл Евгеньевич</div>
+                <div class="model-status">Эксклюзивная топ-модель</div>
+                
+                <div class="info-list">
+                    <div class="info-item"><strong>Формат встреч:</strong> <span>Индивидуальный</span></div>
+                    <div class="info-item"><strong>Категория:</strong> <span>VIP Сервис</span></div>
+                    <div class="info-item"><strong>Предпочтения:</strong> <span>Обговариваются</span></div>
+                    <div class="info-item"><strong>Контрацепция:</strong> <span>Строго барьерная</span></div>
+                </div>
+
+                <div class="price-tag">15 000 ₽ / час</div>
+            </div>
+
+            <div class="side-panel">
+                <div class="glass-box address-box">
+                    <h2>Локация для встреч и обсуждения</h2>
+                    <p>Вы можете заранее приехать по указанному адресу, чтобы лично обсудить все детали, формат, конфиденциальность и условия проведения сессии:</p>
+                    <div class="address-text">
+                        обл. Курская, г. Льгов, пер. Фрунзе 2-й, Дом 25, Квартира 1
+                    </div>
+                </div>
+
+                <div class="glass-box">
+                    <h2>Гарантии анонимности</h2>
+                    <p>Мы ценим статус каждого клиента. Никаких записей, скрытых камер или сохранения личной информации. Полная ликвидация контактов сразу после выполнения обязательств.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cta-container">
+            <h2>Желаете оформить моментальный заказ?</h2>
+            <p>Наш диспетчер круглосуточно на связи для подтверждения времени выезда и бронирования.</p>
+            <a href="https://t.me/madesgod" class="btn-premium" target="_blank">Связаться в Telegram</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 G-Service Luxury. Все права защищены. Сайт предназначен исключительно для лиц старше 18 лет, приобретающих платные интимные услуги для мужчин.</p>
+    </footer>
+
+</body>
+</html>
